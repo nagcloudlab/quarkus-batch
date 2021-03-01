@@ -1,0 +1,17 @@
+
+
+
+
+
+shop IT
+---------------
+
+
+
+	1. PriceMatrix
+		-getPrice(item)
+				
+	2. Billing
+		-getTotalPrice(cart)			
+		
+    3. App		

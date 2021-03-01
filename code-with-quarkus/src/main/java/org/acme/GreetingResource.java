@@ -17,19 +17,21 @@ public class GreetingResource {
 //	@ConfigProperty(name="greeting.message",defaultValue = "hello..")
 //	String message;
 
-	
+	@Inject
+	GreetingService greetingService;
+
 	@Inject
 	Config config;
-	
-	
-	@ConfigProperty(name="training.date")
-	LocalDate localDate;
+
+	@ConfigProperty(name = "training.date")
+	LocalDate trainingDate;
 
 	@GET
 	@Produces(MediaType.TEXT_PLAIN)
 	public String hello() {
-		String message=config.getOptionalValue("greeting.message", String.class).orElse("hello");
-        return message +" "+localDate.toString();
+//		String message = config.getOptionalValue("greeting.message", String.class).orElse("hello");
+//		return message + " " + trainingDate.toString();
+		return greetingService.message();
 	}
-	
+
 }

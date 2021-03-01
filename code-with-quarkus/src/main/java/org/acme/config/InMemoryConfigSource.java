@@ -6,22 +6,12 @@ import java.util.Map;
 import org.eclipse.microprofile.config.spi.ConfigSource;
 
 
-/*
- * 
- *  400 ==> system properties
- *  300 ==> envi
- *  260 ==> application.properties at config directory
- *  250 ==> application.properties at project directory
- * 
- * 
- */
-
 public class InMemoryConfigSource implements ConfigSource {
 
 	private Map<String, String> confg = new HashMap<>();
 
 	public InMemoryConfigSource() {
-		confg.put("greeting.message", "Hello Ibm ( in-memory-config )");
+		confg.put("greeting.message", "Hello ibm ( in-memory-config )");
 	}
 
 	@Override
