@@ -7,7 +7,7 @@ import javax.enterprise.context.ApplicationScoped;
 public class GreetingService {
 
 	public String message() {
-		return "goog evening";
+		return "good morning";
 	}
 
 }
