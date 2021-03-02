@@ -1,0 +1,42 @@
+
+
+
+Writing a Quarkus Extension
+
+
+The goal of an extension is to compute just enough bytecode to start the services 
+that the application requires, and drop everything else.
+
+So, when writing an extension, you need to distinguish the action that:
+
+Can be done at build time
+Must be done at runtime
+
+Because of this distinction, extensions are divided into 2 parts: 
+a build time augmentation and a runtime. 
+
+The augmentation part is responsible for all the metadata processing, annotation scanning, XML parsing…​
+The output of this augmentation is recorded bytecode, which, then, is executed at runtime to instantiate the relevant services.
+
+
+
+Quarkus’s mission is to transform your entire application, 
+including the libraries it uses, into an artifact that uses significantly fewer resources than traditional approaches.
+
+
+To build an extension, Quarkus provides a framework to:
+
+ => read configuration from the application.properties file and map it to objects,
+
+ => read metadata from classes without having to load them, this includes classpath and annotation scanning,
+
+ => generate bytecode if needed (for proxies for instance),
+
+ => pass sensible defaults to the application,
+
+ => make the application compatible with GraalVM (resources, reflection, substitutions),
+
+ => implement hot-reload
+
+
+ 

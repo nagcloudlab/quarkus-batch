@@ -1,0 +1,5 @@
+io/quarkus/workshop/superheroes/banner/deployment/BannerProcessor.class
+io/quarkus/workshop/superheroes/banner/deployment/BannerConfig.class
+META-INF/quarkus-javadoc.properties
+META-INF/quarkus-config-roots.list
+META-INF/quarkus-build-steps.list
