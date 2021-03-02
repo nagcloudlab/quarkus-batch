@@ -1,13 +1,13 @@
 package org.acme;
 
-// cdi
-import javax.enterprise.context.ApplicationScoped;
+import org.springframework.stereotype.Service;
 
-@ApplicationScoped
+@Service
 public class GreetingService {
 
-	public String message() {
-		return "good morning";
+	
+	public String getMessage() {
+		return "hello from spring - service";
 	}
-
+	
 }
