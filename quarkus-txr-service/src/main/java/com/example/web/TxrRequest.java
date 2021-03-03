@@ -1,9 +1,15 @@
 package com.example.web;
 
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotBlank;
+
 public class TxrRequest {
 
+	@Min(value = 1,message = "invalid amount")
 	private double amount;
+	@NotBlank(message = "from acc required")
 	private String fromAccNum;
+	@NotBlank(message = "to acc required")
 	private String toAccNum;
 
 	public double getAmount() {
