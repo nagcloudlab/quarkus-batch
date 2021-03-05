@@ -1,0 +1,12 @@
+io/quarkus/workshop/superheroes/fight/client/Villain.class
+io/quarkus/workshop/superheroes/fight/client/HeroService.class
+io/quarkus/workshop/superheroes/fight/Fight.class
+io/quarkus/workshop/superheroes/fight/health/PingFightResourceHealthCheck.class
+io/quarkus/workshop/superheroes/fight/FightApplication.class
+io/quarkus/workshop/superheroes/fight/FightService.class
+io/quarkus/workshop/superheroes/fight/Fighters.class
+io/quarkus/workshop/superheroes/fight/health/DatabaseConnectionHealthCheck.class
+io/quarkus/workshop/superheroes/fight/client/Hero.class
+META-INF/panache-archive.marker
+io/quarkus/workshop/superheroes/fight/client/VillainService.class
+io/quarkus/workshop/superheroes/fight/FightResource.class

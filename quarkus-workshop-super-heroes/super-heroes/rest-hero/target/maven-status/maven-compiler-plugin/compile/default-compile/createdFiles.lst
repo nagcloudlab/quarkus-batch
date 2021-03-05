@@ -1,0 +1,8 @@
+io/quarkus/workshop/superheroes/hero/HeroApplication.class
+io/quarkus/workshop/superheroes/hero/Hero.class
+io/quarkus/workshop/superheroes/hero/HeroResource.class
+META-INF/panache-archive.marker
+io/quarkus/workshop/superheroes/hero/HeroService.class
+io/quarkus/workshop/superheroes/hero/HeroApplicationLifeCycle.class
+io/quarkus/workshop/superheroes/hero/health/DatabaseConnectionHealthCheck.class
+io/quarkus/workshop/superheroes/hero/health/PingHeroResourceHealthCheck.class

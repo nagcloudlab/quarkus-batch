@@ -1,6 +1,0 @@
----
-metadata: {}
-group-id: "io.quarkus.workshop.super-heroes"
-artifact-id: "extension-banner"
-version: "1.0"
-name: "Quarkus Workshop :: Extensions :: Banner Extension :: Runtime"

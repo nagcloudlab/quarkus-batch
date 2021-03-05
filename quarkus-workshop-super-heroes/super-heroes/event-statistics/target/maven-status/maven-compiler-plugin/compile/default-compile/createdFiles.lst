@@ -1,0 +1,8 @@
+io/quarkus/workshop/superheroes/statistics/SuperStats.class
+io/quarkus/workshop/superheroes/statistics/TeamStats.class
+io/quarkus/workshop/superheroes/statistics/Ranking.class
+io/quarkus/workshop/superheroes/statistics/Score.class
+io/quarkus/workshop/superheroes/statistics/TopWinnerWebSocket.class
+io/quarkus/workshop/superheroes/statistics/Fight.class
+io/quarkus/workshop/superheroes/statistics/FightDeserializer.class
+io/quarkus/workshop/superheroes/statistics/TeamStatsWebSocket.class
